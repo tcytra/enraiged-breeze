@@ -1,4 +1,4 @@
-# Enraiged Laravel v0.4.x
+# Enraiged Breeze v0.4.x
 
 **[Laravel 12](https://laravel.com/docs/12.x/releases)
  • [Vue v3.4](https://vuejs.org/guide/introduction.html)
@@ -6,7 +6,7 @@
  • [TailwindCSS v3.2](https://inertiajs.com/)
 **
 
-> **Please Note:** The **0.4.x** branch is currently a work in progress and not yet ready for production use.
+> **Please Note:** This project is currently a work in progress and not yet ready for production use.
 
 
 ## Table of Contents
@@ -32,7 +32,7 @@
 
 ```bash
 cd /path/to/your/repos/ # traverse into your repositories directory
-git clone https://github.com/tcytra/enraiged-laravel [new-directory]
+git clone https://github.com/tcytra/enraiged-breeze [new-directory]
 cd [new-directory]/
 ```
 
