@@ -29,8 +29,6 @@ defineProps({
     },
 });
 
-const resolver = lang => import(`./fixtures/lang/${lang}.json`);
-
 const locales = [
     {locale: 'en', name: 'English'},
     {locale: 'es', name: 'Spanish'},
