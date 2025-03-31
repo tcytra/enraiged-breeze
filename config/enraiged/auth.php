@@ -112,6 +112,20 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Logout Other Devices
+    |--------------------------------------------------------------------------
+    |
+    | The application may be configured to automatically log out of a user's
+    | session when they successfully log in from another device or browser.
+    |
+    | The default value is false (allow logins from multiple sources).
+    |
+    */
+
+    'logout_other_devices' => (bool) env('LOGOUT_OTHER_DEVICES'),
+
+    /*
+    |--------------------------------------------------------------------------
     | Must Verify Email
     |--------------------------------------------------------------------------
     |

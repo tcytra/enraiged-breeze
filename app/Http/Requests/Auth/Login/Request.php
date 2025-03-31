@@ -129,6 +129,10 @@ class Request extends FormRequest
             $this->user()->trackIpAddress($this->ip());
         }
 
+        if (config('enraiged.auth.logout_other_devices') === true) {
+            Auth::logoutOtherDevices($this->get('password'));
+        }
+
         return true;
     }
 

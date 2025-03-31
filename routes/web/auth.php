@@ -34,7 +34,7 @@ Route::namespace('\App\Http\Controllers\Auth')
 
             });
 
-        Route::middleware('auth')
+        Route::middleware('auth', 'auth.session')
             ->group(function () {
 
                 Route::namespace('Password\Confirm')

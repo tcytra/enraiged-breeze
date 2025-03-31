@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 require 'web/auth.php';
 require 'web/users.php';
 
-Route::middleware(['auth', 'verified'])
+Route::middleware(['auth', 'auth.session', 'verified'])
     ->get('/dashboard', '\App\Http\Controllers\Dashboard\Show')
     ->name('dashboard');
 

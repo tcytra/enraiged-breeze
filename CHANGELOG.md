@@ -1,5 +1,12 @@
 # Release Notes
 
+2025-00-00 : 0.4.0-beta.4 (prerelease)  
+Update: 
+
+- Added 'enraiged.auth.logout_other_devices' config option
+
+---
+
 2025-03-27 : 0.4.0-beta.3 (prerelease)  
 Update: Added login ip address tracking and new address notification
 

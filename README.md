@@ -192,6 +192,13 @@ Out of the box, the default Laravel Welcome screen will be displayed by a reques
 
 The .env equivalent is FORCE_GUEST_LOGIN=true|false.
 
+**Logout Other Devices**
+
+This configuration option is `false` by default and should be set to `true` if the application should only allow one
+concurrent user login across devices and browsers.
+
+The .env equivalent is LOGOUT_OTHER_DEVICES=true|false.
+
 **Must Verify Email**
 
 This configuration option is `false` by default and should be set to `true` if the application requires email
